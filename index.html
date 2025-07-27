@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Citizenship Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Citizenship Flashcards</h1>
+
+  <!-- Language selection -->
+  <label for="languageSelect">Choose language:</label>
+  <select id="languageSelect">
+    <option value="english">English</option>
+    <option value="tagalog">Tagalog</option>
+  </select>
+
+  <!-- Counter display -->
+  <div id="counter">0/0</div>
+
+  <!-- Flashcard question -->
+  <div id="flashcard">Press Next to start!</div>
+
+  <!-- Answer text -->
+  <div id="answer" class="hidden"></div>
+
+  <!-- Buttons -->
+  <button id="backBtn" disabled>Back</button>
+  <button id="nextBtn">Next</button>
+  <button id="revealBtn" class="hidden">Reveal Answer</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
